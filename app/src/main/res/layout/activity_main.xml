@@ -11,7 +11,7 @@
 	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_marginTop="30sp"
+		android:layout_marginTop="20sp"
 		android:weightSum="2">
 		
 		<LinearLayout
@@ -101,7 +101,7 @@
 			android:id="@+id/textViewDontetlenekSzama"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:layout_marginBottom="20sp"
+			android:layout_marginBottom="30sp"
 			android:text="Döntetlenek száma: 0"
 			android:textSize="30sp" />
 		
@@ -115,21 +115,21 @@
 			android:id="@+id/textViewGepValasztasa"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:layout_marginBottom="20sp"
+			android:layout_marginBottom="30sp"
 			android:text="A gép választása"
 			android:textSize="30sp" />
 		
 		<ImageView
-			android:id="@+id/imageViewTeValasztasod"
+			android:id="@+id/imageViewJatekosValasztasa"
 			android:layout_width="100dp"
 			android:layout_height="100dp"
 			android:src="@drawable/rock" />
 		
 		<TextView
-			android:id="@+id/textViewTeValasztasod"
+			android:id="@+id/textViewJatekosValasztasa"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="A te választásod"
+			android:text="A játékos választása"
 			android:textSize="30sp" />
 	
 	</LinearLayout>
